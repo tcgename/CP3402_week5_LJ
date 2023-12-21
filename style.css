@@ -1,0 +1,64 @@
+/*
+Theme Name: Twenty Twenty-Two child
+Template: twentytwentytwo
+Author: Zhixian Lu
+Version: 0.0.1
+*/
+
+.wp-block-search__button,
+ .wp-block-file .wp-block-file__button {
+     background-color: var(--wp--preset--color--primary);
+     border-radius: 0;
+     border: none;
+     color: var(--wp--preset--color--background);
+     font-size: var(--wp--preset--font-size--medium);
+     padding: calc(1em + 2px) calc(1.5em + 2px); /* Increase padding */
+ } 
+
+ .wp-block-search__button:hover,
+ .wp-block-file .wp-block-file__button:hover,
+ .wp-block-button__link:hover {
+     opacity: 0.85; /* Change opacity value */
+ } 
+
+
+ .wp-site-blocks,
+ body > .is-root-container,
+ .edit-post-visual-editor__post-title-wrapper,
+ .wp-block-group.alignfull,
+ .wp-block-group.has-background,
+ .wp-block-cover.alignfull,
+ .is-root-container .wp-block[data-align="full"] > .wp-block-group,
+ .is-root-container .wp-block[data-align="full"] > .wp-block-cover {
+     padding-left: var(--wp--custom--spacing--outer);
+     padding-right: var(--wp--custom--spacing--outer);
+     padding-top: 0; /* Add this line to adjust top padding */
+     padding-bottom: 0; /* Add this line to adjust bottom padding */
+ } 
+
+
+ .wp-block-navigation__responsive-container.is-menu-open {
+    padding-top: var(--wp--custom--spacing--large); /* Change top padding */
+    padding-bottom: var(--wp--custom--spacing--large); /* Change bottom padding */
+    padding-right: var(--wp--custom--spacing--outer);
+    padding-left: var(--wp--custom--spacing--outer);
+}
+
+
+
+ .wp-block-post-comments ol.commentlist ul.children {
+    margin-top: 0.5rem; /* Change top margin */
+    margin-bottom: 0.5rem; /* Change bottom margin */
+}
+
+.wp-block-post-comments ol.commentlist li.comment:not(:last-child) {
+    margin-bottom: 0.5rem; /* Change margin between comments */
+}
+
+a:hover,
+a:focus {
+    text-decoration-style: solid; /* Change text decoration style */
+    text-decoration-color: #FF0000; /* Change text decoration color (example: red) */
+}
+
+
