@@ -1,6 +1,4 @@
 # CP3402-Week5-LJ
-# week 5 Learning Journal
-
 # Learning Activities 
 In my journey to master WordPress theme customization, I've been delving into the developer documentation and learning the ropes of creating a child theme. This journal reflects my experiences, challenges, and the insights I've gained along the way. My goal is to create a customized theme that not only looks great but also functions smoothly.
 
